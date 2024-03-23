@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OBAN JHS Faculty</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style type="text/css">
+        nav {
+            background-color: #194C85;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #26567b;
+            color: white;
+            text-decoration: none;
+        }
+        body {
+            font-family: "Roboto Condensed";
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: #194C85;
+            border-color: #194C85;
+            color: white;
+            display: inline-block;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #26567b;
+            color: white;
+        }
+        .contact-info {
+            background-color: #194C85;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+            width: 100%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<img src="banner.png" width="100%" class="img-fluid">
+<nav>
+    <ul>
+        <li><a href="proj.html">Home</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Teacher Feedback</h2>
+    <form>
+        <div class="form-group">
+            <label for="teacher">Select Teacher:</label>
+            <select class="form-control" id="teacher" name="teacher">
+                 <option value="Aguirre">Amelia A. Aguirre</option>
+                <option value="Balajadia">Luisito R. Balajadia</option>
+                <option value="Salazar">Winmhar G. Salazar</option>
+                <option value="Alegrid">Rogelio T. Alegrid</option>
+                <option value="Roque">Ruel C. Roque</option>
+                <option value="Diaz">Justine P. Diaz</option>
+                <option value="Cristobal">Angelina M. Cristobal</option>
+                <option value="Garcia">Louise Caitlin A. Garcia</option>
+                <option value="Trinidad">Nichole B. Trinidad</option>
+                <option value="Galang">Ailene M. Galang</option>
+                <option value="Layug">Mark Joseph M. Layug</option>
+                <option value="Lumboy">Ian Joseph P. Lumboy</option>
+                <option value="Cherreguine">Haniel L. Cherreguine</option>
+                <option value="Santos">Randy S. Santos</option>
+                <option value="Sarmiento">Roselle P. Sarmiento</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="comment">Comment/Suggestion/Message</label>
+            <textarea class="form-control" id="comment" name="comment" rows="5" placeholder="Enter Comment/Suggestion/Message"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Feedback</button>
+    </form>
+    <div class="contact-info">
+        <h4>Contact Information:</h4> 
+        <p>---------------------------------------------------</p>
+        <p>Email: obanjhs@obmontessori.edu.ph</p>
+        <p>Phone: 0912-123-4567</p>
+        <p>Office Hours: Monday-Friday, 8:00 AM - 5:00 PM</p>
+        <p>Address: 4HPW+XM6, MacArthur Hwy, Angeles, 2009 Pampanga</p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
